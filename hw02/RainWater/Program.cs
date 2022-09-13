@@ -4,7 +4,7 @@ namespace RainWater
 {
     internal static class Program
     {
-        public static int RainWater(int[] columns)
+        private static int RainWater(int[] columns)
         {
             if (columns.Length == 0)
             {

@@ -4,7 +4,7 @@ namespace DiceRoll
 {
     internal static class Program
     {
-        public static int DiceRoll(int numberOfDices, int sumOfPoints)
+        private static int DiceRoll(int numberOfDices, int sumOfPoints)
         {
             if (numberOfDices == 0)
             {
