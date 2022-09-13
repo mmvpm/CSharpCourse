@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiceRoll", "DiceRoll\DiceRo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImmutableType", "ImmutableType\ImmutableType.csproj", "{4EF68070-9D24-469B-8393-DE937BB4D6F8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructInheritance", "StructInheritance\StructInheritance.csproj", "{BF25B579-AFCC-4424-ABFD-DF7DE7B50BB5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{4EF68070-9D24-469B-8393-DE937BB4D6F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4EF68070-9D24-469B-8393-DE937BB4D6F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4EF68070-9D24-469B-8393-DE937BB4D6F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF25B579-AFCC-4424-ABFD-DF7DE7B50BB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF25B579-AFCC-4424-ABFD-DF7DE7B50BB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF25B579-AFCC-4424-ABFD-DF7DE7B50BB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF25B579-AFCC-4424-ABFD-DF7DE7B50BB5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
