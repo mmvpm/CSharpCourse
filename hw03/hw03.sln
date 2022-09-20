@@ -4,6 +4,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedLists", "LinkedLists\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FractionSimplifier", "FractionSimplifier\FractionSimplifier.csproj", "{915BCD5B-C823-4B64-BBEC-F237FBB40F42}"
 EndProject
+    Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalindromeConstructor", "PalindromeConstructor\PalindromeConstructor.csproj", "{6EA97318-C292-4A01-8A98-AE8219982482}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetEnumerator", "GetEnumerator\GetEnumerator.csproj", "{BEF8C248-2AF2-42C4-B061-276A1C507F71}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,13 @@ Global
 		{915BCD5B-C823-4B64-BBEC-F237FBB40F42}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{915BCD5B-C823-4B64-BBEC-F237FBB40F42}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{915BCD5B-C823-4B64-BBEC-F237FBB40F42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EA97318-C292-4A01-8A98-AE8219982482}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EA97318-C292-4A01-8A98-AE8219982482}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EA97318-C292-4A01-8A98-AE8219982482}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EA97318-C292-4A01-8A98-AE8219982482}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEF8C248-2AF2-42C4-B061-276A1C507F71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEF8C248-2AF2-42C4-B061-276A1C507F71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEF8C248-2AF2-42C4-B061-276A1C507F71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEF8C248-2AF2-42C4-B061-276A1C507F71}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
