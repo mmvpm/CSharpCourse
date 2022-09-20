@@ -1,4 +1,4 @@
-﻿namespace hw03;
+﻿namespace LinkedLists;
 
 internal class RefWrapper
 {

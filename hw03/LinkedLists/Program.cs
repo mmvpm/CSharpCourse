@@ -1,4 +1,4 @@
-﻿using hw03;
+﻿using LinkedLists;
 
 T? FirstCommonNode<T>(LinkedList<T> first, LinkedList<T> second) where T : class
 {
