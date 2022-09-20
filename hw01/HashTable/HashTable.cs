@@ -45,7 +45,7 @@ namespace HashTable
 
         private int GetKeyIndex(TK key)
         {
-            return key.GetHashCode() % Storage.Count;
+            return (key.GetHashCode() % Storage.Count + Storage.Count) % Storage.Count;
         }
 
         private KeyValuePair<TK, TV> FindPair(TK key)
