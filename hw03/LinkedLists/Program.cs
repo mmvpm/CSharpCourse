@@ -4,7 +4,23 @@ T? FirstCommonNode<T>(LinkedList<T> first, LinkedList<T> second) where T : class
 {
     var firstCurrentNode  = first.First;
     var secondCurrentNode = second.First;
-    
+
+    var lengthDifference = first.Count - second.Count;
+    if (lengthDifference > 0)
+    {
+        for (var i = 0; i < lengthDifference; i++)
+        {
+            firstCurrentNode = firstCurrentNode!.Next;
+        }
+    }
+    else
+    {
+        for (var i = 0; i < -lengthDifference; i++)
+        {
+            secondCurrentNode = secondCurrentNode!.Next;
+        }
+    }
+
     while (firstCurrentNode != null && secondCurrentNode != null)
     {
         if (firstCurrentNode.ValueRef.Equals(secondCurrentNode.ValueRef))
@@ -18,14 +34,15 @@ T? FirstCommonNode<T>(LinkedList<T> first, LinkedList<T> second) where T : class
     return null;
 }
 
-var refWrapper = new RefWrapper(17); // common node
+var refWrapper17 = new RefWrapper(17); // common node
+var refWrapper19 = new RefWrapper(19); // common node
 var firstList  = new LinkedList<RefWrapper>(new[]
 {
-    new RefWrapper(0), new RefWrapper(1), refWrapper, new RefWrapper(2)
+    new RefWrapper(1), refWrapper17, refWrapper19
 });
 var secondList = new LinkedList<RefWrapper>(new[]
 {
-    new RefWrapper(0), new RefWrapper(2), refWrapper
+    new RefWrapper(0), new RefWrapper(1), refWrapper17, refWrapper19
 });
 var emptyList = new LinkedList<RefWrapper>();
 
