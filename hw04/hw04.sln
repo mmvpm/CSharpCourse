@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\In
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hamsters", "Hamsters\Hamsters.csproj", "{1556DDC8-11D4-4676-8C22-4741838DE782}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegates", "Delegates\Delegates.csproj", "{F89BECF8-112B-46AD-8F11-44258B50CCDD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{1556DDC8-11D4-4676-8C22-4741838DE782}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1556DDC8-11D4-4676-8C22-4741838DE782}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1556DDC8-11D4-4676-8C22-4741838DE782}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F89BECF8-112B-46AD-8F11-44258B50CCDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F89BECF8-112B-46AD-8F11-44258B50CCDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F89BECF8-112B-46AD-8F11-44258B50CCDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F89BECF8-112B-46AD-8F11-44258B50CCDD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
