@@ -16,11 +16,17 @@ public class EventBus
 
     public void RemovePublisher(string publisherId)
     {
+        _publishers[publisherId].ClearSubscribers();
         _publishers.Remove(publisherId);
     }
 
     public void Subscribe(string publisherId, ISubscriber subscriber)
     {
         _publishers[publisherId].OnPost += subscriber.OnEvent;
+    }
+    
+    public void Unsubscribe(string publisherId, ISubscriber subscriber)
+    {
+        _publishers[publisherId].OnPost -= subscriber.OnEvent;
     }
 }

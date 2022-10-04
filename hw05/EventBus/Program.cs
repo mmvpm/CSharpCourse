@@ -28,3 +28,16 @@ pubB.Post();
     SubscriberA.OnEvent()
     SubscriberB.OnEvent()
 */
+
+eventBus.RemovePublisher("pubA");
+pubA.Post();
+/* Output:
+    PublisherA.Post()
+*/
+
+eventBus.Unsubscribe("pubB", subA);
+pubB.Post();
+/* Output:
+    PublisherB.Post()
+    SubscriberB.OnEvent()
+*/

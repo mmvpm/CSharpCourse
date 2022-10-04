@@ -5,6 +5,8 @@ public interface IPublisher
     public event Action OnPost;
 
     public void Post();
+
+    public void ClearSubscribers();
 }
 
 public class PublisherA : IPublisher
@@ -16,6 +18,11 @@ public class PublisherA : IPublisher
         Console.WriteLine("PublisherA.Post()");
         OnPost.Invoke();
     }
+
+    public void ClearSubscribers()
+    {
+        OnPost = delegate { };
+    }
 }
 
 public class PublisherB : IPublisher
@@ -26,5 +33,10 @@ public class PublisherB : IPublisher
     {
         Console.WriteLine("PublisherB.Post()");
         OnPost.Invoke();
+    }
+    
+    public void ClearSubscribers()
+    {
+        OnPost = delegate { };
     }
 }
