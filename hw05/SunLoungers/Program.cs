@@ -23,6 +23,7 @@ var inputs = new List<string>
 inputs.ForEach(input =>
     Console.WriteLine("SunLoungers(" + input + ") = " + SunLoungers(input))
 );
+
 /*
     SunLoungers(1) = 0
     SunLoungers(0) = 1
