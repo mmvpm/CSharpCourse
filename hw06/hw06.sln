@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrogAndLake", "FrogAndLake\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortCollection", "SortCollection\SortCollection.csproj", "{15F1CD42-11CA-4BF1-BAD3-1CC551900D48}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyLinkedList", "MyLinkedList\MyLinkedList.csproj", "{6D101DD4-1632-4F11-B098-05F07BFB7B50}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{15F1CD42-11CA-4BF1-BAD3-1CC551900D48}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15F1CD42-11CA-4BF1-BAD3-1CC551900D48}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15F1CD42-11CA-4BF1-BAD3-1CC551900D48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D101DD4-1632-4F11-B098-05F07BFB7B50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D101DD4-1632-4F11-B098-05F07BFB7B50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D101DD4-1632-4F11-B098-05F07BFB7B50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D101DD4-1632-4F11-B098-05F07BFB7B50}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
