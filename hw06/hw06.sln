@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortCollection", "SortColle
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyLinkedList", "MyLinkedList\MyLinkedList.csproj", "{6D101DD4-1632-4F11-B098-05F07BFB7B50}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultidimensionalArray", "MultidimensionalArray\MultidimensionalArray.csproj", "{E7BF01D8-6402-48CF-9B9F-144EDE66B5B8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{6D101DD4-1632-4F11-B098-05F07BFB7B50}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D101DD4-1632-4F11-B098-05F07BFB7B50}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D101DD4-1632-4F11-B098-05F07BFB7B50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7BF01D8-6402-48CF-9B9F-144EDE66B5B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7BF01D8-6402-48CF-9B9F-144EDE66B5B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7BF01D8-6402-48CF-9B9F-144EDE66B5B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7BF01D8-6402-48CF-9B9F-144EDE66B5B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
