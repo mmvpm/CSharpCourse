@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrogAndLake", "FrogAndLake\FrogAndLake.csproj", "{4FB0063A-3955-4E85-BBB0-7FBCFE65A50E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortCollection", "SortCollection\SortCollection.csproj", "{15F1CD42-11CA-4BF1-BAD3-1CC551900D48}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{4FB0063A-3955-4E85-BBB0-7FBCFE65A50E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4FB0063A-3955-4E85-BBB0-7FBCFE65A50E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4FB0063A-3955-4E85-BBB0-7FBCFE65A50E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15F1CD42-11CA-4BF1-BAD3-1CC551900D48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15F1CD42-11CA-4BF1-BAD3-1CC551900D48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15F1CD42-11CA-4BF1-BAD3-1CC551900D48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15F1CD42-11CA-4BF1-BAD3-1CC551900D48}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
