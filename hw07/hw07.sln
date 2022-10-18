@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqTasks", "LinqTasks\LinqTasks.csproj", "{C4851AAA-7E10-4C8E-8ED8-C45D0272F77F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxMin", "MaxMin\MaxMin.csproj", "{E079FDD4-F0B2-428B-B373-20A5CF70AD79}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{C4851AAA-7E10-4C8E-8ED8-C45D0272F77F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4851AAA-7E10-4C8E-8ED8-C45D0272F77F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4851AAA-7E10-4C8E-8ED8-C45D0272F77F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E079FDD4-F0B2-428B-B373-20A5CF70AD79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E079FDD4-F0B2-428B-B373-20A5CF70AD79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E079FDD4-F0B2-428B-B373-20A5CF70AD79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E079FDD4-F0B2-428B-B373-20A5CF70AD79}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
