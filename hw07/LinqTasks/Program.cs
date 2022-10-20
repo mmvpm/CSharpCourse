@@ -2,12 +2,14 @@
 
 string Task1(List<Element> elements, char delimiter)
 {
-    if (elements.Count < 3)
-        return "";
-    return elements
-        .Skip(3)
-        .Select(e => e.Name)
-        .Aggregate((acc, name) => acc + delimiter + name);
+    return elements.Count switch
+    {
+        <= 3 => "",
+        _ => elements
+            .Skip(3)
+            .Select(e => e.Name)
+            .Aggregate((acc, name) => acc + delimiter + name)
+    };
 }
 
 IEnumerable<Element> Task2(IEnumerable<Element> elements)
