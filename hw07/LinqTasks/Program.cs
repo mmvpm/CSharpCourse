@@ -1,8 +1,11 @@
 ﻿using LinqTasks;
 
-string Task1(IEnumerable<Element> elements, char delimiter)
+string Task1(List<Element> elements, char delimiter)
 {
+    if (elements.Count < 3)
+        return "";
     return elements
+        .Skip(3)
         .Select(e => e.Name)
         .Aggregate((acc, name) => acc + delimiter + name);
 }
@@ -64,13 +67,16 @@ var elements = new List<Element>
     new Element("name1"),
     new Element("a"),
     new Element("Name"),
+    new Element("b6"),
+    new Element("aoaoaoa"),
+    new Element("SomeVeryLongName777"),
 };
 
 Console.WriteLine(Task1(elements, '#'));
-// Task1 Output: name1#a#Name
+// Task1 Output: b6#aoaoaoa#SomeVeryLongName777
 
 PrintList(Task2(elements));
-// Task2 Output: [Element(name1), Element(Name)]
+// Task2 Output: [Element(name1), Element(Name), Element(aoaoaoa), Element(SomeVeryLongName777)]
 
 var task3Result = Task3("Это что же получается: ходишь, ходишь в школу, а потом бац - вторая смена");
 foreach (var group in task3Result)
