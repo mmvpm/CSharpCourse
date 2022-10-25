@@ -1,16 +1,20 @@
 ﻿string LongestRepetitiveSubstring(string s)
 {
     var result = "";
-    for (var i = 0; i < s.Length; ++i)
+    for (var startIndex1 = 0; startIndex1 < s.Length; ++startIndex1)
     {
-        for (var j = i + 1; j < s.Length; ++j)
+        for (var startIndex2 = startIndex1 + 1; startIndex2 < s.Length; ++startIndex2)
         {
-            var k = 0;
-            for (; Math.Max(i + k, j + k) < s.Length && s[i + k] == s[j + k]; ++k) {}
-
-            if (k > result.Length)
+            var length = 0;
+            while (Math.Max(startIndex1 + length, startIndex2 + length) < s.Length && 
+                   s[startIndex1 + length] == s[startIndex2 + length])
             {
-                result = s.Substring(i, k);
+                length++;
+            }
+
+            if (length > result.Length)
+            {
+                result = s.Substring(startIndex1, length);
             }
         }
     }
