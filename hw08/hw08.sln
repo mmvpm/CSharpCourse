@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeStrings", "MergeString
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortStrings", "SortStrings\SortStrings.csproj", "{7665E66B-A111-4B51-9242-7B2623D121A6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibonacciStrings", "FibonacciStrings\FibonacciStrings.csproj", "{D3E1AB06-A7A3-456C-8973-E33F4A3AEACD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{7665E66B-A111-4B51-9242-7B2623D121A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7665E66B-A111-4B51-9242-7B2623D121A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7665E66B-A111-4B51-9242-7B2623D121A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3E1AB06-A7A3-456C-8973-E33F4A3AEACD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3E1AB06-A7A3-456C-8973-E33F4A3AEACD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3E1AB06-A7A3-456C-8973-E33F4A3AEACD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3E1AB06-A7A3-456C-8973-E33F4A3AEACD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
