@@ -12,6 +12,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortStrings", "SortStrings\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibonacciStrings", "FibonacciStrings\FibonacciStrings.csproj", "{D3E1AB06-A7A3-456C-8973-E33F4A3AEACD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepetitiveSubstring", "RepetitiveSubstring\RepetitiveSubstring.csproj", "{DB7D395E-12A3-434D-8BEE-CF8C5A0784A8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,9 @@ Global
 		{D3E1AB06-A7A3-456C-8973-E33F4A3AEACD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3E1AB06-A7A3-456C-8973-E33F4A3AEACD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3E1AB06-A7A3-456C-8973-E33F4A3AEACD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB7D395E-12A3-434D-8BEE-CF8C5A0784A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB7D395E-12A3-434D-8BEE-CF8C5A0784A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB7D395E-12A3-434D-8BEE-CF8C5A0784A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB7D395E-12A3-434D-8BEE-CF8C5A0784A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
