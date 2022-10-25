@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringSerialization", "Stri
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionDispatchInfo", "ExceptionDispatchInfo\ExceptionDispatchInfo.csproj", "{E7D4A472-F365-4138-953B-F0A5A3C98022}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringDifference", "StringDifference\StringDifference.csproj", "{DB263F67-307E-412C-AB35-1A9CDEE7AA60}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{E7D4A472-F365-4138-953B-F0A5A3C98022}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E7D4A472-F365-4138-953B-F0A5A3C98022}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E7D4A472-F365-4138-953B-F0A5A3C98022}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB263F67-307E-412C-AB35-1A9CDEE7AA60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB263F67-307E-412C-AB35-1A9CDEE7AA60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB263F67-307E-412C-AB35-1A9CDEE7AA60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB263F67-307E-412C-AB35-1A9CDEE7AA60}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
