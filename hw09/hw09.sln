@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Numbers", "Numbers\Numbers.csproj", "{BCFA9157-DB41-4420-AF3A-7D0C6DE18818}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentSerialization", "StudentSerialization\StudentSerialization.csproj", "{3CEEC58B-1697-4DF6-AAA2-87C899CE7594}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{BCFA9157-DB41-4420-AF3A-7D0C6DE18818}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BCFA9157-DB41-4420-AF3A-7D0C6DE18818}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BCFA9157-DB41-4420-AF3A-7D0C6DE18818}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CEEC58B-1697-4DF6-AAA2-87C899CE7594}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CEEC58B-1697-4DF6-AAA2-87C899CE7594}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CEEC58B-1697-4DF6-AAA2-87C899CE7594}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CEEC58B-1697-4DF6-AAA2-87C899CE7594}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
