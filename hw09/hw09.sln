@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentSerialization", "Stu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeSerialization", "TreeSerialization\TreeSerialization.csproj", "{D414A935-2E79-4997-914F-EB85F504EC0F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileSearch", "FileSearch\FileSearch.csproj", "{2DE1E141-AEA2-4251-8359-D21AB9DC0AB0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{D414A935-2E79-4997-914F-EB85F504EC0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D414A935-2E79-4997-914F-EB85F504EC0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D414A935-2E79-4997-914F-EB85F504EC0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DE1E141-AEA2-4251-8359-D21AB9DC0AB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DE1E141-AEA2-4251-8359-D21AB9DC0AB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DE1E141-AEA2-4251-8359-D21AB9DC0AB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DE1E141-AEA2-4251-8359-D21AB9DC0AB0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
