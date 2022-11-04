@@ -24,7 +24,7 @@ public static class FileSearch
         }
         catch (Exception ex)
         {
-            if (ex is SecurityException || ex is DirectoryNotFoundException || ex is UnauthorizedAccessException)
+            if (ex is SecurityException or DirectoryNotFoundException or UnauthorizedAccessException)
                 return null;
             throw;
         }
