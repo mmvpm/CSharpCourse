@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlackBox", "BlackBox\BlackB
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Envelopes", "Envelopes\Envelopes.csproj", "{17EEA6BB-670A-4064-B0DB-3F0FE4788E28}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomAttribute", "CustomAttribute\CustomAttribute.csproj", "{427D95A0-B4F3-4F4C-8832-0018D3B90D67}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{17EEA6BB-670A-4064-B0DB-3F0FE4788E28}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17EEA6BB-670A-4064-B0DB-3F0FE4788E28}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17EEA6BB-670A-4064-B0DB-3F0FE4788E28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{427D95A0-B4F3-4F4C-8832-0018D3B90D67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{427D95A0-B4F3-4F4C-8832-0018D3B90D67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{427D95A0-B4F3-4F4C-8832-0018D3B90D67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{427D95A0-B4F3-4F4C-8832-0018D3B90D67}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
