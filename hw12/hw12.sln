@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomobilePlant", "Automobi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Allergy", "Allergy\Allergy.csproj", "{0B9AA753-B283-4495-AC50-586D4D50EA45}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mailboxes", "Mailboxes\Mailboxes.csproj", "{D8DED2A6-0F19-4EB5-87BC-48375B6BB48B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{0B9AA753-B283-4495-AC50-586D4D50EA45}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B9AA753-B283-4495-AC50-586D4D50EA45}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B9AA753-B283-4495-AC50-586D4D50EA45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8DED2A6-0F19-4EB5-87BC-48375B6BB48B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8DED2A6-0F19-4EB5-87BC-48375B6BB48B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8DED2A6-0F19-4EB5-87BC-48375B6BB48B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8DED2A6-0F19-4EB5-87BC-48375B6BB48B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
