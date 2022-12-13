@@ -1,5 +1,5 @@
-﻿object honeyLock;
-int currentHoneyPortions;
+﻿object honeyLock = new();
+var currentHoneyPortions = 0;
 
 void BeeWork(int beeIndex, int maxHoneyPortions)
 {
@@ -14,82 +14,72 @@ void BeeWork(int beeIndex, int maxHoneyPortions)
             {
                 currentHoneyPortions++;
                 Console.WriteLine("+ Bee #" + beeIndex + ", Honey = " + currentHoneyPortions);
+                Monitor.PulseAll(honeyLock);
             }
-            else
+        }
+    }
+}
+
+void BearWork(int maxHoneyPortions)
+{
+    while (true)
+    {
+        lock (honeyLock) {
+            while (currentHoneyPortions < maxHoneyPortions)
             {
-                break;
+                Monitor.Wait(honeyLock);
             }
+            
+            currentHoneyPortions = 0;
+            Console.WriteLine("- Bear, Honey = 0");
         }
     }
 }
 
-void BearWork()
+void Simulate(int nBees, int maxHoneyPortions)
 {
-    lock (honeyLock)
+    for (var i = 0; i < nBees; ++i)
     {
-        currentHoneyPortions = 0;
-        Console.WriteLine("- Bear, Honey = 0");
+        var beeIndex = i;
+        Task.Run(() => BeeWork(beeIndex, maxHoneyPortions));
     }
-}
-
-void Simulate(int nBees, int maxHoneyPortions, int nIterations = 2)
-{
-    honeyLock = new object();
-
-    for (var iteration = 0; iteration < nIterations; ++iteration)
-    {
-        Console.WriteLine("===== Iteration #" + iteration + " =====");
-        currentHoneyPortions = 0;
-
-        var bees = new List<Task>();
-        for (var i = 0; i < nBees; ++i)
-        {
-            var beeIndex = i;
-            bees.Add(Task.Run(() => BeeWork(beeIndex, maxHoneyPortions)));
-        }
-
-        Task.WhenAny(bees).ContinueWith(_ => Task.Run(BearWork)).Wait();
-    }
+    Task.Run(() => BearWork(maxHoneyPortions)).Wait();
 }
 
 Simulate(1, 2);
 /* Output:
 
-    ===== Iteration #0 =====
     + Bee #0, Honey = 1
     + Bee #0, Honey = 2
     - Bear, Honey = 0
-    ===== Iteration #1 =====
     + Bee #0, Honey = 1
     + Bee #0, Honey = 2
-    - Bear, Honey = 0    
+    - Bear, Honey = 0
+    + Bee #0, Honey = 1
+    ...
 */
 
-Simulate(3, 10);
+Simulate(3, 7);
 /* Output:
 
-    ===== Iteration #0 =====
-    + Bee #0, Honey = 1
-    + Bee #2, Honey = 2
-    + Bee #1, Honey = 3
-    + Bee #0, Honey = 4
-    + Bee #1, Honey = 5
+    + Bee #2, Honey = 1
+    + Bee #1, Honey = 2
+    + Bee #0, Honey = 3
+    + Bee #1, Honey = 4
+    + Bee #0, Honey = 5
     + Bee #2, Honey = 6
     + Bee #1, Honey = 7
-    + Bee #2, Honey = 8
-    + Bee #0, Honey = 9
-    + Bee #1, Honey = 10
     - Bear, Honey = 0
-    ===== Iteration #1 =====
     + Bee #0, Honey = 1
-    + Bee #2, Honey = 2
+    + Bee #0, Honey = 2
     + Bee #1, Honey = 3
-    + Bee #1, Honey = 4
+    + Bee #0, Honey = 4
     + Bee #2, Honey = 5
-    + Bee #0, Honey = 6
+    + Bee #2, Honey = 6
     + Bee #1, Honey = 7
-    + Bee #1, Honey = 8
-    + Bee #2, Honey = 9
-    + Bee #2, Honey = 10
     - Bear, Honey = 0
+    + Bee #0, Honey = 1
+    + Bee #0, Honey = 2
+    + Bee #2, Honey = 3
+    ...
 */
