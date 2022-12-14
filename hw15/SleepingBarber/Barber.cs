@@ -9,7 +9,7 @@ public class Barber
 
     private bool _isTerminated;
     private readonly object _workLocker;
-    private Task _barberTask;
+    private readonly Task _barberTask;
 
     public Barber(int nChairs)
     {
@@ -20,12 +20,11 @@ public class Barber
         _barberTask = Task.Run(Work);
     }
 
-    public bool AddClient(Client client)
+    public void AddClient(Client client)
     {
         if (_clientQueue.Count == _nChairs)
         {
             Console.WriteLine("= Skipped " + client);
-            return false;
         }
 
         _clientQueue.Enqueue(client);
@@ -34,7 +33,6 @@ public class Barber
         {
             Monitor.Pulse(_workLocker);
         }
-        return true;
     }
 
     public void Terminate()

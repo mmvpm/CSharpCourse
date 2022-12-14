@@ -2,7 +2,7 @@
 
 public class Client
 {
-    public string Name { get; }
+    private string Name { get; }
     public int RequiredWorkMilliseconds { get; }
 
 
