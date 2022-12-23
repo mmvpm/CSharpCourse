@@ -16,7 +16,7 @@ public class ZeroEvenOdd
 
     // printNumber(x) outputs "x", where x is an integer.
     public void Zero(Action<int> printNumber) =>
-        CommonPart(cycleSize: 2, cycleNum: 1, order => printNumber(0));
+        CommonPart(cycleSize: 2, cycleNum: 1, _ => printNumber(0));
 
     public void Even(Action<int> printNumber) =>
         CommonPart(cycleSize: 4, cycleNum: 0, order => printNumber(order / 2));
