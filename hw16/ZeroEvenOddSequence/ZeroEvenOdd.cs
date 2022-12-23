@@ -1,6 +1,4 @@
-﻿using System.Net;
-
-namespace ZeroEvenOddSequence;
+﻿namespace ZeroEvenOddSequence;
 
 public class ZeroEvenOdd
 {
@@ -39,6 +37,7 @@ public class ZeroEvenOdd
                 {
                     printNumberByOrder(_order);
                 }
+
                 _order += 1;
                 Monitor.PulseAll(_orderLock);
             }
