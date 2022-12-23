@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZeroEvenOddSequence", "Zero
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelArrayOperations", "ParallelArrayOperations\ParallelArrayOperations.csproj", "{04E8B426-0972-4E6B-A4FA-0061DF47C57B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadsH2O", "ThreadsH2O\ThreadsH2O.csproj", "{4F4CA34A-D899-49C9-8EBB-8FD8036BA1ED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{04E8B426-0972-4E6B-A4FA-0061DF47C57B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04E8B426-0972-4E6B-A4FA-0061DF47C57B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04E8B426-0972-4E6B-A4FA-0061DF47C57B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F4CA34A-D899-49C9-8EBB-8FD8036BA1ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F4CA34A-D899-49C9-8EBB-8FD8036BA1ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F4CA34A-D899-49C9-8EBB-8FD8036BA1ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F4CA34A-D899-49C9-8EBB-8FD8036BA1ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
